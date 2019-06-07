@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MetaCiphers
 {
-    public class Class1
+    internal interface ICipher
     {
         
     }

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaCiphers", "MetaCiphers\MetaCiphers.csproj", "{7172411E-70F3-4566-837D-29DCCAE38247}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAS System", "RASSystem\RAS System.csproj", "{80B59A65-7AC5-4CB5-87FC-121EDAC20878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{80F05D0E-F9D0-4260-8D55-A17EF5F1512F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7172411E-70F3-4566-837D-29DCCAE38247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7172411E-70F3-4566-837D-29DCCAE38247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7172411E-70F3-4566-837D-29DCCAE38247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B59A65-7AC5-4CB5-87FC-121EDAC20878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B59A65-7AC5-4CB5-87FC-121EDAC20878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B59A65-7AC5-4CB5-87FC-121EDAC20878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B59A65-7AC5-4CB5-87FC-121EDAC20878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F05D0E-F9D0-4260-8D55-A17EF5F1512F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F05D0E-F9D0-4260-8D55-A17EF5F1512F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F05D0E-F9D0-4260-8D55-A17EF5F1512F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F05D0E-F9D0-4260-8D55-A17EF5F1512F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

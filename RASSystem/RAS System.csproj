@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7172411E-70F3-4566-837D-29DCCAE38247}</ProjectGuid>
+    <ProjectGuid>{80B59A65-7AC5-4CB5-87FC-121EDAC20878}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MetaCiphers</RootNamespace>
-    <AssemblyName>MetaCiphers</AssemblyName>
+    <RootNamespace>RASSystem</RootNamespace>
+    <AssemblyName>RASSystem</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,10 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ciphers\CaeserCipher.cs" />
-    <Compile Include="Interfaces\ICipher.cs" />
+    <Compile Include="Data Types\BigInt.cs" />
+    <Compile Include="Data Types\Digit.cs" />
+    <Compile Include="Extensions\LINQExt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
